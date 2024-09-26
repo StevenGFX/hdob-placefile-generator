@@ -1,0 +1,36 @@
+{
+  "name": "hdob-placefile-generator",
+  "version": "1.0.0",
+  "description": "A utility for generating placefiles from HDOB (High-Density Observations) data from hurricane reconnaissance aircraft.",
+  "main": "hdob-placefile-generator.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node hdob-placefile-generator.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevengfx/hdob-placefile-generator.git"
+  },
+  "keywords": [
+    "HDOB",
+    "placefile",
+    "hurricane",
+    "reconnaissance",
+    "weather",
+    "meteorology"
+  ],
+  "author": "Steven Williams me@stevengfx.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevengfx/hdob-placefile-generator/issues"
+  },
+  "homepage": "https://github.com/stevengfx/hdob-placefile-generator#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
